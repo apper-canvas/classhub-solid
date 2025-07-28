@@ -188,11 +188,12 @@ const StudentsPage = () => {
           onAction={handleAddStudent}
           icon="Users"
         />
-      ) : (
+) : (
         <StudentTable
           students={filteredStudents}
           onEdit={handleEditStudent}
           onDelete={handleDeleteStudent}
+          showParentContact={true}
         />
       )}
 
