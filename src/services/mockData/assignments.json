@@ -1,0 +1,66 @@
+[
+  {
+    "Id": 1,
+    "classId": 1,
+    "name": "Linear Equations Quiz",
+    "totalPoints": 100,
+    "dueDate": "2024-02-15T23:59:00Z",
+    "type": "Quiz"
+  },
+  {
+    "Id": 2,
+    "classId": 1,
+    "name": "Graphing Functions Homework",
+    "totalPoints": 50,
+    "dueDate": "2024-02-20T23:59:00Z",
+    "type": "Homework"
+  },
+  {
+    "Id": 3,
+    "classId": 4,
+    "name": "Shakespeare Essay",
+    "totalPoints": 200,
+    "dueDate": "2024-02-25T23:59:00Z",
+    "type": "Essay"
+  },
+  {
+    "Id": 4,
+    "classId": 6,
+    "name": "Cell Structure Lab",
+    "totalPoints": 150,
+    "dueDate": "2024-02-18T23:59:00Z",
+    "type": "Lab"
+  },
+  {
+    "Id": 5,
+    "classId": 2,
+    "name": "Triangle Properties Test",
+    "totalPoints": 100,
+    "dueDate": "2024-02-22T23:59:00Z",
+    "type": "Test"
+  },
+  {
+    "Id": 6,
+    "classId": 7,
+    "name": "Chemical Reactions Project",
+    "totalPoints": 250,
+    "dueDate": "2024-03-01T23:59:00Z",
+    "type": "Project"
+  },
+  {
+    "Id": 7,
+    "classId": 9,
+    "name": "Ancient Civilizations Quiz",
+    "totalPoints": 75,
+    "dueDate": "2024-02-28T23:59:00Z",
+    "type": "Quiz"
+  },
+  {
+    "Id": 8,
+    "classId": 3,
+    "name": "Derivatives Worksheet",
+    "totalPoints": 80,
+    "dueDate": "2024-02-24T23:59:00Z",
+    "type": "Homework"
+  }
+]

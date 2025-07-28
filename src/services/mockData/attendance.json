@@ -1,0 +1,142 @@
+[
+  {
+    "Id": 1,
+    "studentId": 1,
+    "classId": 1,
+    "date": "2024-02-12",
+    "status": "present"
+  },
+  {
+    "Id": 2,
+    "studentId": 1,
+    "classId": 4,
+    "date": "2024-02-12",
+    "status": "present"
+  },
+  {
+    "Id": 3,
+    "studentId": 1,
+    "classId": 7,
+    "date": "2024-02-12",
+    "status": "tardy"
+  },
+  {
+    "Id": 4,
+    "studentId": 2,
+    "classId": 2,
+    "date": "2024-02-12",
+    "status": "present"
+  },
+  {
+    "Id": 5,
+    "studentId": 2,
+    "classId": 4,
+    "date": "2024-02-12",
+    "status": "present"
+  },
+  {
+    "Id": 6,
+    "studentId": 3,
+    "classId": 1,
+    "date": "2024-02-12",
+    "status": "absent"
+  },
+  {
+    "Id": 7,
+    "studentId": 3,
+    "classId": 6,
+    "date": "2024-02-12",
+    "status": "present"
+  },
+  {
+    "Id": 8,
+    "studentId": 4,
+    "classId": 3,
+    "date": "2024-02-12",
+    "status": "present"
+  },
+  {
+    "Id": 9,
+    "studentId": 4,
+    "classId": 5,
+    "date": "2024-02-12",
+    "status": "present"
+  },
+  {
+    "Id": 10,
+    "studentId": 5,
+    "classId": 1,
+    "date": "2024-02-12",
+    "status": "present"
+  },
+  {
+    "Id": 11,
+    "studentId": 1,
+    "classId": 1,
+    "date": "2024-02-13",
+    "status": "present"
+  },
+  {
+    "Id": 12,
+    "studentId": 1,
+    "classId": 4,
+    "date": "2024-02-13",
+    "status": "present"
+  },
+  {
+    "Id": 13,
+    "studentId": 2,
+    "classId": 2,
+    "date": "2024-02-13",
+    "status": "tardy"
+  },
+  {
+    "Id": 14,
+    "studentId": 3,
+    "classId": 1,
+    "date": "2024-02-13",
+    "status": "present"
+  },
+  {
+    "Id": 15,
+    "studentId": 4,
+    "classId": 3,
+    "date": "2024-02-13",
+    "status": "absent"
+  },
+  {
+    "Id": 16,
+    "studentId": 5,
+    "classId": 1,
+    "date": "2024-02-13",
+    "status": "present"
+  },
+  {
+    "Id": 17,
+    "studentId": 6,
+    "classId": 2,
+    "date": "2024-02-13",
+    "status": "present"
+  },
+  {
+    "Id": 18,
+    "studentId": 7,
+    "classId": 6,
+    "date": "2024-02-13",
+    "status": "present"
+  },
+  {
+    "Id": 19,
+    "studentId": 8,
+    "classId": 3,
+    "date": "2024-02-13",
+    "status": "present"
+  },
+  {
+    "Id": 20,
+    "studentId": 1,
+    "classId": 1,
+    "date": "2024-02-14",
+    "status": "present"
+  }
+]

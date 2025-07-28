@@ -1,0 +1,74 @@
+[
+  {
+    "Id": 1,
+    "firstName": "Emma",
+    "lastName": "Johnson",
+    "email": "emma.johnson@email.com",
+    "grade": "10th Grade",
+    "enrolledClasses": ["math-101", "english-201", "science-301"],
+    "createdAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "Id": 2,
+    "firstName": "Liam",
+    "lastName": "Chen",
+    "email": "liam.chen@email.com",
+    "grade": "11th Grade",
+    "enrolledClasses": ["math-201", "english-301", "history-201"],
+    "createdAt": "2024-01-16T14:20:00Z"
+  },
+  {
+    "Id": 3,
+    "firstName": "Sophia",
+    "lastName": "Rodriguez",
+    "email": "sophia.rodriguez@email.com",
+    "grade": "9th Grade",
+    "enrolledClasses": ["math-101", "english-101", "science-201"],
+    "createdAt": "2024-01-17T09:15:00Z"
+  },
+  {
+    "Id": 4,
+    "firstName": "Noah",
+    "lastName": "Williams",
+    "email": "noah.williams@email.com",
+    "grade": "12th Grade",
+    "enrolledClasses": ["math-301", "english-401", "history-301"],
+    "createdAt": "2024-01-18T11:45:00Z"
+  },
+  {
+    "Id": 5,
+    "firstName": "Ava",
+    "lastName": "Davis",
+    "email": "ava.davis@email.com",
+    "grade": "10th Grade",
+    "enrolledClasses": ["math-101", "science-301", "art-201"],
+    "createdAt": "2024-01-19T13:30:00Z"
+  },
+  {
+    "Id": 6,
+    "firstName": "Oliver",
+    "lastName": "Miller",
+    "email": "oliver.miller@email.com",
+    "grade": "11th Grade",
+    "enrolledClasses": ["math-201", "science-401", "history-201"],
+    "createdAt": "2024-01-20T08:50:00Z"
+  },
+  {
+    "Id": 7,
+    "firstName": "Isabella",
+    "lastName": "Garcia",
+    "email": "isabella.garcia@email.com",
+    "grade": "9th Grade",
+    "enrolledClasses": ["english-101", "science-201", "art-101"],
+    "createdAt": "2024-01-21T16:20:00Z"
+  },
+  {
+    "Id": 8,
+    "firstName": "Ethan",
+    "lastName": "Anderson",
+    "email": "ethan.anderson@email.com",
+    "grade": "12th Grade",
+    "enrolledClasses": ["math-301", "history-301", "science-501"],
+    "createdAt": "2024-01-22T12:10:00Z"
+  }
+]
