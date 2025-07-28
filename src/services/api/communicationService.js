@@ -276,9 +276,7 @@ class CommunicationService {
         console.error(`Error fetching communications for parent contact ${parentContactId}:`, error.message);
       }
       return [];
-    }
-return [];
-    }
+}
   }
 }
 
