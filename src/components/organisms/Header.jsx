@@ -1,12 +1,15 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
 import { useLocation } from "react-router-dom";
+import { useSelector } from "react-redux";
 import ApperIcon from "@/components/ApperIcon";
 import Button from "@/components/atoms/Button";
 import SearchBar from "@/components/molecules/SearchBar";
-
+import { AuthContext } from "../App";
 const Header = ({ onMenuToggle }) => {
   const location = useLocation();
   const [globalSearch, setGlobalSearch] = useState("");
+  const { logout } = useContext(AuthContext);
+  const { user } = useSelector((state) => state.user);
   
   const getPageTitle = () => {
     const path = location.pathname;
@@ -22,6 +25,14 @@ const Header = ({ onMenuToggle }) => {
   const handleGlobalSearch = (searchTerm) => {
     setGlobalSearch(searchTerm);
     // TODO: Implement global search functionality
+  };
+
+  const handleLogout = async () => {
+    try {
+      await logout();
+    } catch (error) {
+      console.error("Logout failed:", error);
+    }
   };
 
   return (
@@ -57,7 +68,7 @@ const Header = ({ onMenuToggle }) => {
             </div>
           </div>
 
-          {/* Right side actions */}
+{/* Right side actions */}
           <div className="flex items-center space-x-4">
             {/* Notifications */}
             <Button variant="secondary" size="sm" className="p-2 relative">
@@ -75,6 +86,17 @@ const Header = ({ onMenuToggle }) => {
                 <p className="text-xs text-gray-500">Welcome back!</p>
               </div>
             </div>
+
+            {/* Logout Button */}
+            <Button 
+              variant="secondary" 
+              size="sm" 
+              onClick={handleLogout}
+              className="flex items-center space-x-2"
+            >
+              <ApperIcon name="LogOut" className="w-4 h-4" />
+              <span className="hidden sm:inline">Logout</span>
+            </Button>
           </div>
         </div>
       </div>
