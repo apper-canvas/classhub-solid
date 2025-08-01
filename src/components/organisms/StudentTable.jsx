@@ -68,18 +68,18 @@ const StudentTable = ({ students, onEdit, onDelete }) => {
                 transition={{ delay: index * 0.05 }}
                 className="hover:bg-gray-50 transition-colors duration-200"
               >
-                <td className="px-6 py-4 whitespace-nowrap">
+<td className="px-6 py-4 whitespace-nowrap">
                   <div className="flex items-center">
                     <div className="w-10 h-10 bg-gradient-to-r from-primary to-secondary rounded-full flex items-center justify-center">
                       <span className="text-white font-medium text-sm">
-                        {student.firstName[0]}{student.lastName[0]}
+                        {student?.firstName?.[0] || '?'}{student?.lastName?.[0] || '?'}
                       </span>
                     </div>
                     <div className="ml-4">
                       <div className="text-sm font-medium text-gray-900">
-                        {student.firstName} {student.lastName}
+                        {student?.firstName || 'N/A'} {student?.lastName || 'N/A'}
                       </div>
-                      <div className="text-sm text-gray-500">{student.email}</div>
+                      <div className="text-sm text-gray-500">{student?.email || 'N/A'}</div>
                     </div>
                   </div>
                 </td>
