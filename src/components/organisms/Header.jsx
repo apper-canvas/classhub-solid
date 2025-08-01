@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 import ApperIcon from "@/components/ApperIcon";
 import Button from "@/components/atoms/Button";
 import SearchBar from "@/components/molecules/SearchBar";
-import { AuthContext } from "../App";
+import { AuthContext } from "../../App";
 const Header = ({ onMenuToggle }) => {
   const location = useLocation();
   const [globalSearch, setGlobalSearch] = useState("");
